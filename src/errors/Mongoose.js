@@ -11,7 +11,7 @@ function DuplicateError(res, error) {
 function JwtError(res) {
     return res.status(400).json({
         status: 'fail',
-        message: 'your session expires, try login again',
+        message: 'your session has expired, try login again',
     });
 }
 

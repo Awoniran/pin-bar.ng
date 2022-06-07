@@ -21,10 +21,12 @@ const homesSchema = Schema({
         type: String,
         require: [true, 'kindly provide a region'],
     },
-    photo: {
-        type: String,
-        require: [true, 'kindly provide a photo'],
-    },
+    photos: [
+        {
+            type: String,
+            require: [true, 'kindly provide a photo'],
+        },
+    ],
 });
 
 module.exports = model('Homes', homesSchema);

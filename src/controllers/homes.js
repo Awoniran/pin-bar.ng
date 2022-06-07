@@ -16,4 +16,6 @@ exports.undefinedRoutes = (req, res, next) => {
 };
 
 exports.HttpGetHomes = AsyncError((req, res, next) => {});
-exports.HttpPostNewHome = AsyncError((req, res, next) => {});
+exports.HttpPostNewHome = AsyncError((req, res, next) => {
+    res.send('we dey here, I am working');
+});
