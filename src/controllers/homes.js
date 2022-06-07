@@ -15,7 +15,13 @@ exports.undefinedRoutes = (req, res, next) => {
     );
 };
 
-exports.HttpGetHomes = AsyncError((req, res, next) => {});
+exports.HttpGetHomes = AsyncError((req, res, next) => {
+    res.status(200).json({
+        status: 'success',
+        message: 'this route is in development',
+    });
+});
+
 exports.HttpPostNewHome = AsyncError((req, res, next) => {
-    res.send('we dey here, I am working');
+    res.status(200).json('we dey here, I am working');
 });
