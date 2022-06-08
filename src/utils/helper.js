@@ -1,4 +1,5 @@
 const jwt = require('jsonwebtoken');
+
 function response(res, statusCode, data, token) {
     res.status(statusCode).json({
         status: 'success',
@@ -14,6 +15,18 @@ function dumbUser(userObject) {
         lastName: userObject.lastName,
         email: userObject.email,
         joinedAt: userObject.joinedAt,
+    };
+}
+function dumbHome(homeObject) {
+    return {
+        id: homeObject._id,
+        type: homeObject.houseType,
+        no_of_rooms: homeObject.rooms,
+        no_of_toilets: homeObject.toilet,
+        price: homeObject.price,
+        region: homeObject.region,
+        photos: homeObject.photos,
+        created: homeObject.created,
     };
 }
 
@@ -32,4 +45,5 @@ module.exports = {
     dumbUser,
     signToken,
     verifyToken,
+    dumbHome,
 };

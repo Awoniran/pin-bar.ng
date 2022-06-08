@@ -8,6 +8,11 @@ const homesSchema = Schema({
         require: [true, 'specify a house type, e.g bungalow'],
     },
 
+    rooms: {
+        type: Number,
+        require: [true, 'input number of rooms'],
+    },
+
     toilet: {
         type: Number,
     },
@@ -27,6 +32,11 @@ const homesSchema = Schema({
             require: [true, 'kindly provide a photo'],
         },
     ],
+
+    created: {
+        type: Date,
+        default: Date.now,
+    },
 });
 
 module.exports = model('Homes', homesSchema);

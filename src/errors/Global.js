@@ -7,6 +7,7 @@ function errorHandler(err, req, res, next) {
 
 function HandleProdError(err, res, next) {
     const { ...error } = err;
+    console.log(error);
     if (error.isOperational) {
         return res.status(400).json({
             status: err.status,
