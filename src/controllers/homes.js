@@ -25,6 +25,11 @@ exports.HttpGetHomes = AsyncError(async (req, res, next) => {
 
 exports.HttpGetHome = AsyncError(async (req, res, next) => {});
 
-exports.HttpPostNewHome = AsyncError((req, res, next) => {
-    res.status(200).json('we dey here, I am working');
+exports.HttpDeleteHome = AsyncError(async (req, res, next) => {});
+
+exports.HttpEditHome = AsyncError(async (req, res, next) => {});
+
+exports.HttpPostNewHome = AsyncError(async (req, res, next) => {
+    const newHome = await new Factory(Home).create(req.body);
+    response(res, 200, dumbHome(newHome));
 });

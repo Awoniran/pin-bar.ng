@@ -14,8 +14,17 @@ function JwtError(res) {
         message: 'your session has expired, try login again',
     });
 }
+function ValidationError(res, error) {
+    const message = ``;
+    return res.status(400).json({
+        status: 'fail',
+        message,
+    });
+}
+function CastError(res, error) {}
 
 module.exports = {
     DuplicateError,
     JwtError,
+    ValidationError,
 };

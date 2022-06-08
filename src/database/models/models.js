@@ -5,33 +5,39 @@ const homesSchema = Schema({
     houseType: {
         type: String,
         trim: true,
-        require: [true, 'specify a house type, e.g bungalow'],
+        required: [true, 'specify a house type, e.g bungalow'],
     },
 
     rooms: {
         type: Number,
-        require: [true, 'input number of rooms'],
+        required: [true, 'input number of rooms'],
     },
 
     toilet: {
         type: Number,
+        required: true,
     },
 
     price: {
         type: Number,
-        require: [true, 'provide price for the house'],
+        required: [true, 'provide price for the house'],
     },
 
     region: {
         type: String,
-        require: [true, 'kindly provide a region'],
+        required: [true, 'kindly provide a region'],
     },
     photos: [
         {
             type: String,
-            require: [true, 'kindly provide a photo'],
+            required: [true, 'kindly provide a photo'],
         },
     ],
+    status: {
+        type: String,
+        enum: ['Rent', 'sell', 'Buy'],
+        required: true,
+    },
 
     created: {
         type: Date,
