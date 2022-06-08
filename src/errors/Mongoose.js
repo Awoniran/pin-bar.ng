@@ -15,7 +15,7 @@ function JwtError(res) {
     });
 }
 function ValidationError(res, error) {
-    const message = ``;
+    const message = `validation failed : ${error.message}`;
     return res.status(400).json({
         status: 'fail',
         message,
@@ -27,4 +27,5 @@ module.exports = {
     DuplicateError,
     JwtError,
     ValidationError,
+    CastError,
 };

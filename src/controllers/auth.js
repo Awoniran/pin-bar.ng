@@ -50,7 +50,10 @@ exports.HttpLogin = AsyncError(async (req, res, next) => {
 
 exports.HttpCheckLogin = AsyncError(async (req, res, next) => {
     let token;
-    if (req.headers && req.headers.authorization) {
+    if (
+        req.headers.authorization &&
+        req.headers.authorization.startsWith('Bearer')
+    ) {
         token = req.headers.authorization.split(' ')[1];
     }
     if (!token)
