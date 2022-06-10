@@ -2,9 +2,9 @@
 function DuplicateError(res, error) {
     return res.status(400).json({
         status: 'fail',
-        message: `Duplicate field name(s) ${Object.entries(
+        message: `Duplicate field(s): ${Object.entries(
             error.keyValue
-        )}, try another value`,
+        )}, already exist`,
     });
 }
 
@@ -14,14 +14,24 @@ function JwtError(res) {
         message: 'your session has expired, try login again',
     });
 }
+
 function ValidationError(res, error) {
-    const message = `validation failed : ${error.message}`;
+    const message = `${error._message} : ${Object.values(error.errors).map(
+        (el) => el.message
+    )}`;
     return res.status(400).json({
         status: 'fail',
         message,
     });
 }
-function CastError(res, error) {}
+
+function CastError(res, error) {
+    const message = `invalid ${error.path} :${error.value}`;
+    return res.status(400).json({
+        status: 'fail',
+        message,
+    });
+}
 
 module.exports = {
     DuplicateError,

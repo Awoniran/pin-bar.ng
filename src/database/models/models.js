@@ -1,7 +1,6 @@
 const { Schema, model } = require('mongoose');
 
 const homesSchema = Schema({
-    //
     houseType: {
         type: String,
         trim: true,
@@ -27,12 +26,14 @@ const homesSchema = Schema({
         type: String,
         required: [true, 'kindly provide a region'],
     },
+
     photos: [
         {
             type: String,
             required: [true, 'kindly provide a photo'],
         },
     ],
+
     status: {
         type: String,
         enum: ['Rent', 'sell', 'Buy'],

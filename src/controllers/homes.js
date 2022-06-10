@@ -23,11 +23,24 @@ exports.HttpGetHomes = AsyncError(async (req, res, next) => {
     response(res, 200, homes);
 });
 
-exports.HttpGetHome = AsyncError(async (req, res, next) => {});
+exports.HttpGetHome = AsyncError(async (req, res, next) => {
+    const home = await new Factory(Home).findOne({ _id: req.params.HomeId });
+    if (!home)
+        return next(new AppError('no home found with the provided ID', 404));
+    response(res, 200, dumbHome(home));
+});
 
-exports.HttpDeleteHome = AsyncError(async (req, res, next) => {});
+exports.HttpDeleteHome = AsyncError(async (req, res, next) => {
+    await new Factory(Home).Delete(req.params.HomeId);
+    response(res, 200, 'Home deleted successfully');
+});
 
-exports.HttpEditHome = AsyncError(async (req, res, next) => {});
+exports.HttpEditHome = AsyncError(async (req, res, next) => {
+    const home = await new Factory(Home).Update(req.params.HomeId, req.body);
+    if (!home)
+        return next(new AppError('no home found with the provided ID', 404));
+    response(res, 200, dumbHome(home));
+});
 
 exports.HttpPostNewHome = AsyncError(async (req, res, next) => {
     const newHome = await new Factory(Home).create(req.body);
