@@ -18,8 +18,9 @@ exports.undefinedRoutes = (req, res, next) => {
 };
 
 exports.HttpGetHomes = AsyncError(async (req, res, next) => {
-    let homes = await new Factory(Home).find(undefined, undefined, '-created');
+    let homes = await new Factory(Home).find(undefined, '-created');
     homes = homes.map((el) => dumbHome(el));
+    console.log(req.query);
     response(res, 200, homes);
 });
 

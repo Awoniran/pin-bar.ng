@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 function response(res, statusCode, data, token) {
     res.status(statusCode).json({
         status: 'success',
+        results: data.length,
         data,
         token,
     });
