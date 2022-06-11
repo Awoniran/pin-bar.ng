@@ -36,7 +36,7 @@ const homesSchema = Schema({
 
     status: {
         type: String,
-        enum: ['Rent', 'sell', 'Buy'],
+        enum: ['rent', 'sell'],
         required: true,
     },
 

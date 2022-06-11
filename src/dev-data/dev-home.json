@@ -1,0 +1,626 @@
+[{
+    "houseType":"bungalow",
+    "rooms":4,
+    "toilet":2,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+        "https://i.pinimg.com/564x/77/4a/0c/774a0cb09e5f59c351c7221667a77acf.jpg",
+        "https://i.pinimg.com/564x/6c/f2/4a/6cf24a755842fe1744c562c3223bbf42.jpg",
+        "https://i.pinimg.com/564x/95/d2/90/95d290c17dd08d6108602c27b5949f9d.jpg",
+        "https://i.pinimg.com/564x/29/2d/c7/292dc7b9d70541a20d71be8aa494d057.jpg"
+    ],
+    "status":"rent"
+}
+,
+{
+    "houseType":"cottage",
+    "rooms":5,
+    "toilet":6,
+    "price":7000000,
+    "region":"Apapa",
+    "photos":[
+        "https://i.pinimg.com/564x/70/b1/20/70b120fc52d05b548ce5fa017e0fe2a9.jpg",
+        "https://i.pinimg.com/564x/8b/3c/57/8b3c57051a9ca6aa0d2c89a7c0307fa9.jpg",
+        "https://i.pinimg.com/564x/ab/77/46/ab77463ba1be19a9e674f51146a93ade.jpg"
+    ],
+    "status":"sell"
+    
+
+},
+{
+    "houseType":"bungalow",
+    "rooms":7,
+    "toilet":3,
+    "price":8000000,
+    "region":"Banana Island",
+    "photos":[
+        "https://i.pinimg.com/564x/41/78/25/4178254e2b66537c27dde78f97ff6023.jpg",
+        "https://i.pinimg.com/564x/41/78/25/4178254e2b66537c27dde78f97ff6023.jpg",
+        "https://i.pinimg.com/564x/41/78/25/4178254e2b66537c27dde78f97ff6023.jpg",
+        "https://i.pinimg.com/564x/41/78/25/4178254e2b66537c27dde78f97ff6023.jpg"
+
+    ],
+    "status":"sell"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":2,
+    "toilet":3,
+    "price":5000000,
+    "region":"Ikoyi",
+    "photos":[
+        "https://i.pinimg.com/564x/dc/31/f3/dc31f34155ef9e8b49e8cf1050d33ba2.jpg",
+        "https://i.pinimg.com/564x/79/1b/23/791b23eb478732f2a9f6ebbcb2484856.jpg",
+        "https://i.pinimg.com/564x/03/0f/63/030f63fce2eb89dd6edef3077bb37b60.jpg"
+    ],
+    "status":"rent"
+    
+
+},{
+    "houseType":"tower",
+    "rooms":5,
+    "toilet":4,
+    "price":1000000000,
+    "region":"Island",
+    "photos":[
+        "https://www.propertypro.ng/blog/wp-content/uploads/2017/03/beautiful-house-in-Nigeria.jpg",
+        "https://i.pinimg.com/564x/62/8a/43/628a436451bd87c5e7e0e92a53c6b33d.jpg",
+        "https://i.pinimg.com/236x/20/ab/84/20ab849e5860be3e14cbcbb2b7d86cca.jpg",
+        "https://i.pinimg.com/236x/fa/c9/6c/fac96c7993484a9e09fcfafddec2dfd7.jpg"
+
+    ],
+    "status":"sell"
+    
+
+},{
+    "houseType":"pent-house",
+    "rooms":5,
+    "toilet":6,
+    "price":50000000,
+    "region":"Lagos Nigeria",
+    "photos":[
+        "https://i.pinimg.com/564x/f8/36/2b/f8362bfcc46f0c5907c68f0d2e2c30da.jpg",
+        "https://i.pinimg.com/236x/55/5e/95/555e95e6358a6f059f7fd90535e6fad8.jpg",
+        "https://i.pinimg.com/564x/5f/7a/81/5f7a819e98aa1ec0d12a03b5dab4c8a6.jpg"
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":2,
+    "toilet":1,
+    "price":3000000,
+    "region":"Island",
+    "photos":[
+        "https://i.pinimg.com/236x/77/73/97/777397dc235c78aadbe11140182f0e57.jpg",
+        "https://i.pinimg.com/236x/27/40/4b/27404b95de328e2dae13807cd2f8de5f.jpg",
+        "https://i.pinimg.com/236x/22/ec/83/22ec8302ad807032c86208dc9b5a52f7.jpg"
+
+    ],
+    "status":"rent"
+    
+
+},{
+    "houseType":"long-house",
+    "rooms":3,
+    "toilet":2,
+    "price":5000000,
+    "region":"Ikoyi",
+    "photos":[
+        "https://i.pinimg.com/564x/33/59/40/335940653f6d9a92674e16f622a08307.jpg",
+        "https://i.pinimg.com/564x/f2/54/fe/f254fe7ef43e0ef61eb68d79707c8608.jpg",
+        "https://i.pinimg.com/236x/22/3f/7e/223f7e2aadc8b5d150e6d6d583c22198.jpg"
+    ],
+    "status":"sell"
+    
+
+},
+{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+},{
+    "houseType":"bungalow",
+    "rooms":5,
+    "toilet":6,
+    "price":5900000,
+    "region":"Island",
+    "photos":[
+
+    ],
+    "status":"buy"
+    
+
+}]
