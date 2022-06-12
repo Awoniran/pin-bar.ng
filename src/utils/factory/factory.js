@@ -1,3 +1,5 @@
+//handle all cursors returned by query
+
 class Factory {
     constructor(model) {
         this.model = model;
